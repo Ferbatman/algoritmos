@@ -8,6 +8,8 @@ indice = []
 
 for i in range(10):
     altura.append(float(input("Digite a altura do aluno: ")))
+    
+for i in range(10):    
     if altura[i] > 1.8:
         altura_m += altura[i]
         cont += 1

@@ -7,7 +7,7 @@ for i in range(8):
 
 for i in range(8):
     if num[i] % 2 == 0:
-        print(f'O numero {num[i]} é par, e ele se encontra no indice {[i]}')
+        print(f'O numero {num[i]} é par, e ele se encontra no indice {i}')
 
 
 
