@@ -14,7 +14,7 @@ for i in range (1,7):
                 qnt_m += 1
             elif sexo == 'F':
                 qnt_f += 1
-        x += idade
+            x += idade
         resp = input("Deseja continuar neste Módulo? (S/N) ").strip().upper()[0]
     media = x / (qnt_f + qnt_m)
     print(f'\nNo Módulo {i} de ADS existem {qnt_m} homens e {qnt_f} mulheres. \nA média de idade do Módulo {i} é de {media:.0f} anos.\n')

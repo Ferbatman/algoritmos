@@ -10,12 +10,14 @@ for l in range(3):
         preco.append(float(input(f'Digite o preço do {produto[c]} na {loja[l]}: ')))
     matriz.append(preco)
 
+print(' '*12, end=' ')
 for i in range(2):
     print(f'[{produto[i]:^7}]', end=' ')
 
 print('\n')
 
 for l in range(3):
+    print(f'[{loja[l]:^10}]', end=' ')
     for c in range(2):
         print(f'[{matriz[l][c]:^7.2f}]', end=' ')
     print()
